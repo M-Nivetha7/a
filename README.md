@@ -7,11 +7,11 @@ This project classifies galaxies based on their shapes and structures using mach
 Galaxy morphology classification helps astronomers understand galaxy formation and evolution. This project uses image data to classify galaxies as spiral, elliptical, or irregular using ML techniques.
 
 ## 📂 Repository Structure
-
+```
 ├── Galaxy_Morphology_Classification.ipynb  # Main notebook with all code, data exploration, preprocessing, model training, and evaluation
 ├── .gitattributes                          # Git configuration
 └── README.md                                # Project description and instructions
-
+```
 ## 🔧 Algorithms & Methods Used
 
 ### 1. Data Preprocessing
@@ -44,56 +44,63 @@ Galaxy morphology classification helps astronomers understand galaxy formation a
 ## 🚀 How to Run
 
 ### Step 1: Clone the repository
+```
 git clone https://github.com/M-Nivetha7/Space_Research_3.git
+```
 
 ### Step 2: Navigate to the project folder
+```
 cd Space_Research_3
+```
 
 ### Step 3: Install dependencies
+```
 pip install numpy pandas matplotlib scikit-learn opencv-python jupyter
+```
 
 ### Step 4: Open the Jupyter Notebook
+```
 jupyter notebook Galaxy_Morphology_Classification.ipynb
+```
 
-## 📊 Results
 
-| Model | Accuracy | Precision | Recall | F1-Score |
-|-------|----------|-----------|--------|----------|
-| Random Forest | - | - | - | - |
-| SVM | - | - | - | - |
-| KNN | - | - | - | - |
-
-*(Update the table above with your actual results after running the notebook.)*
-
-### Sample Confusion Matrix
-[Add your confusion matrix visualization here]
 
 ## 💻 Code Example
 
 # Example: Training Random Forest Classifier
+```
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score, classification_report
+```
 
 # Initialize and train the model
+```
 rf_model = RandomForestClassifier(n_estimators=100, random_state=42)
 rf_model.fit(X_train, y_train)
+```
 
 # Make predictions
+```
 y_pred = rf_model.predict(X_test)
+```
 
 # Evaluate
+```
 accuracy = accuracy_score(y_test, y_pred)
 print(f"Accuracy: {accuracy:.2f}")
 print(classification_report(y_test, y_pred))
+```
 
 ## 📦 Dependencies
 
+```
 numpy>=1.21.0
 pandas>=1.3.0
 matplotlib>=3.4.0
 scikit-learn>=0.24.0
 opencv-python>=4.5.0
 jupyter>=1.0.0
+```
 
 ## 👩‍💻 Author
 
