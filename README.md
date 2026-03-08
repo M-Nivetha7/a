@@ -127,10 +127,7 @@ git remote set-url origin https://github.com/M-Nivetha7/Space_Research_3.git
 - [Add any research papers or resources you used]
 - [Scikit-learn Documentation](https://scikit-learn.org/)
 - [Galaxy Zoo Project](https://www.zooniverse.org/projects/zookeeper/galaxy-zoo/)
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
+  
 
 ## ⭐ Show your support
 
